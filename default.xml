@@ -20,10 +20,6 @@
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="marshmallow" />
-	
-  <remote  name="NX404H"
-	   fetch="https://github.com/NX404H"
-	   revision="m" />	
 
   <remote name="rr-d"
 	  fetch="https://github.com/ResurrectionRemix-Devices"
