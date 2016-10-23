@@ -20,6 +20,10 @@
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="marshmallow" />
+	
+  <remote  name="NX404H"
+	   fetch="https://github.com/NX404H"
+	   revision="m" />	
 
   <remote name="rr-d"
 	  fetch="https://github.com/ResurrectionRemix-Devices"
@@ -36,6 +40,7 @@
 	   sync-f="true" />
 
 <!-- BEGIN RR -->
+  <project path="device/NUBIA/NX404H" name="NX404H/device_nubia_nx404h"  remote="NX404H" revision="m" />
   <project path="build" name="android_build" groups="pdk" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
