@@ -36,7 +36,7 @@
 	   sync-f="true" />
 
 <!-- BEGIN RR -->
-  <project path="device/NUBIA/NX404H" name="NX404H/device_nubia_nx404h"  remote="NX404H" revision="m" />
+  <project path="device/NUBIA/NX404H" name="NX404H/device_nubia_nx404h"  remote="github"  />
   <project path="build" name="android_build" groups="pdk" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
